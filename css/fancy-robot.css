@@ -1,38 +1,127 @@
 .robot-container {
+  background-color: rgb(31, 69, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .robot-face-shape {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(#c6ffdd, #fbd786, #f7797d);
+  border: 10px solid #00cfff;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
 }
 
 .robot-eye-left {
+  width: 60px;
+  height: 60px;
+  background: rgb(24, 78, 84);
+  border-radius: 50%;
+  border-radius: 10px;
+  position: relative;
+  top: 60px;
+  left: 40px;
 }
 
 .robot-eye-right {
+  width: 80px;
+  height: 80px;
+  background: rgb(24, 78, 84);
+  border-radius: 100px;
+  position: relative;
+  top: -10px;
+  left: 170px;
 }
 
 .robot-ear-left {
+  width: 60px;
+  height: 60px;
+  background-color: #b92b27;
+  border-radius: 50%;
+  left: -40px;
+  clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+  background-color: #b92b27;
+  position: absolute;
+  top: 260px;
+  left: 430px;
 }
 
 .robot-ear-right {
+  width: 60px;
+  height: 60px;
+  background-color: #b01515;
+  border-radius: 50%;
+  left: -40px;
+  transform: rotate(180deg);
+  clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+  background-color: #db0f0f;
+  position: absolute;
+  top: 260px;
+  left: 782px;
 }
 
 .robot-nose {
+  border-style: solid;
+  border-width: 15px 15px 0 0;
+  content: "";
+  display: inline-block;
+  height: 40px;
+  left: 40px;
+  transform: rotate(-135deg);
+  vertical-align: top;
+  width: 40px;
+  position: absolute;
+  top: 135px;
+  left: 110px;
 }
 
 .robot-teeth {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .robot-tooth {
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin: 2px;
 }
 
 .robot-hair-style {
+  position: absolute;
+  top: 120px;
+  left: 630px;
+  transform: translate(-50%);
+  display: flex;
+  gap: 10px;
 }
 
 .robot-hair-one {
+  width: 20px;
+  height: 30px;
+  background-color: pink;
 }
 
 .robot-hair-two {
+  width: 20px;
+  height: 30px;
+  background: rgb(255, 213, 0);
 }
 
 .robot-hair-three {
+  width: 20px;
+  height: 30px;
+  background: rgb(0, 255, 106);
 }
