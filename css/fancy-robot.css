@@ -1,5 +1,8 @@
 .robot-container {
-  background-color: rgb(31, 69, 184);
+  font-size: 1rem;
+  background-image: url(https://picsum.photos/seed/picsum/1205/610);
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,8 +10,8 @@
 }
 
 .robot-face-shape {
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
   background: linear-gradient(#c6ffdd, #fbd786, #f7797d);
   border: 10px solid #00cfff;
   border-radius: 30px;
@@ -17,8 +20,8 @@
 }
 
 .robot-eye-left {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   background: rgb(24, 78, 84);
   border-radius: 50%;
   border-radius: 10px;
@@ -38,8 +41,8 @@
 }
 
 .robot-ear-left {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   background-color: #b92b27;
   border-radius: 50%;
   left: -40px;
@@ -51,8 +54,8 @@
 }
 
 .robot-ear-right {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   background-color: #b01515;
   border-radius: 50%;
   left: -40px;
@@ -90,6 +93,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  opacity: 0.5;
 }
 
 .robot-tooth {
@@ -112,16 +116,19 @@
   width: 20px;
   height: 30px;
   background-color: pink;
+  opacity: 0.5;
 }
 
 .robot-hair-two {
   width: 20px;
   height: 30px;
   background: rgb(255, 213, 0);
+  opacity: 0.5;
 }
 
 .robot-hair-three {
   width: 20px;
   height: 30px;
   background: rgb(0, 255, 106);
+  opacity: 0.5;
 }
